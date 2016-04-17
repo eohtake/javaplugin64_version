@@ -2,10 +2,8 @@
 #
 #
 # author: Eric Ohtake
-# This is a base for a custom fact. I prefer to work with a file like this (pure ruby), so I can use all the tools
-# for debugging available in my IDE (Rubymine). When I make it work, I just add the statements that turn it into a Facter fact.
 #
-# The custom fact fetches the Java Plugin 64 bits version currently installed on the system.
+# This program fetches the Java Plugin(s) 64 bits version currently installed on the system.
 #
 # Example of the keys name found for each Java Plugin Version:
 # - Key for the version v8u65 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\4EA42A62D9304AC4784BF2681408560F
